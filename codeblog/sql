@@ -1,0 +1,7 @@
+Comandos Postgres
+sudo -su postgres -> utilizar o usuario postgres e iniciar o postgres
+psql -> iniciar o postgres
+\l -> obter as bases de dados existentes
+\c sua_base -> usar a base
+\d -> listar a base
+\d sua_tabela -> mostrar sua tabela

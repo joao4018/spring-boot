@@ -16,7 +16,6 @@ public class DummyData {
     @Autowired
     CodeblogRepository codeblogRepository;
 
-    //@PostConstruct
     @PostConstruct
     public void savePosts(){
 

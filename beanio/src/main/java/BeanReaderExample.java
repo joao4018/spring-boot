@@ -15,7 +15,7 @@ public class BeanReaderExample {
         BeanReader in = factory.createReader("employeeFile", new File("src/main/resources/pessoa.csv"));
         Pessoa pessoa;
         while ((pessoa = (Pessoa) in.read()) != null) {
-            // process the employee...
+            System.out.println(pessoa.getFirstName());
         }
         in.close();
     }
